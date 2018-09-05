@@ -21,8 +21,7 @@ a {
 
   width: 1146px;
   min-height: 106px;
-  margin-top: 9px;
-  margin-bottom: 280px;
+  margin: 9px auto 280px;
 
   font-size: 14px;
   line-height: 16px;
@@ -166,8 +165,12 @@ a {
   background-color: #d07058;
 }
 
-.carousel-item {
+.container {
   width: 1146px;
+  margin: 0 auto;
+}
+
+.carousel-item {
   min-height: 210px;
   margin-bottom: 40px;
 }
@@ -187,7 +190,6 @@ a {
 .event-list {
   display: flex;
   justify-content: space-between;
-  width: 1146px;
   min-height: 230px;
   margin: 0;
   padding: 0;
@@ -236,7 +238,6 @@ a {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1146px;
   min-height: 325px;
   margin: 0;
   padding: 0;
@@ -273,7 +274,6 @@ a {
 }
 
 .features {
-  width: 1146px;
   min-height: 308px;
   margin-bottom: 40px;
 
@@ -305,7 +305,6 @@ a {
 .index-columns {
   display: flex;
   justify-content: space-between;
-  width: 1146px;
   min-height: 222px;
   margin-bottom: 102px;
 }
@@ -374,6 +373,8 @@ a {
   width: 1146px;
   min-height: 86px;
   margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-social {
