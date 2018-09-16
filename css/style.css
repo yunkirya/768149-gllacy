@@ -1,4 +1,5 @@
 body {
+  min-width: 1200px;
   margin: 0;
   padding: 0;
 
@@ -1358,7 +1359,6 @@ label.visually-hidden {
 
   background-color: #f8f7f4;
 }
-
 
 .feedback {
   top: 338px;
