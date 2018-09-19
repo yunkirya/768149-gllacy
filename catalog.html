@@ -131,7 +131,7 @@
           <a href="#"><span class="underline">Каталог</span></a>
         </li>
         <li class="breadcrumbs-current">
-          <a class="not-active">Сливочное</a>
+          Сливочное
         </li>
       </ul>
       <h1 class="page-title">Сливочное мороженое</h1>
@@ -140,12 +140,17 @@
         <form class="filter" action="https://echo.htmlacademy.ru" method="get">
           <fieldset>
             <legend>Сортировка:</legend>
-            <select id="sort" name="sort-by">
-              <option value="popular">по популярности</option>
-              <option value="low-to-high">Сначала недорогие</option>
-              <option value="high-to-low">Сначала дорогие</option>
-              <option value="fat-content">По жирности</option>
-            </select>
+            <div class="arrow-down">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                <path fill="#ffffff" d="M5.5 10L0 0h11"/>
+              </svg>
+              <select id="sort" name="sort-by">
+                <option value="popular">по популярности</option>
+                <option value="low-to-high">сначала недорогие</option>
+                <option value="high-to-low">сначала дорогие</option>
+                <option value="fat-content">по жирности</option>
+              </select>
+            </div>
           </fieldset>
           <fieldset>
             <legend>Цена: 100 руб. - 500 руб.</legend>
