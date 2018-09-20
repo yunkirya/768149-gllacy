@@ -2170,7 +2170,7 @@ label.visually-hidden {
 .prev a {
   display: block;
 
-  text-indent: -2000px;
+  font-size: 0;
 
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
@@ -2183,7 +2183,7 @@ label.visually-hidden {
   display: block;
   padding-right: 0;
 
-  text-indent: 1000px;
+  font-size: 0;
 
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
@@ -2192,7 +2192,7 @@ label.visually-hidden {
 
 .not-active {
   cursor: default;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 .pagination-item-current a {
